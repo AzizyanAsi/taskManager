@@ -32,13 +32,4 @@ public class UserRequestDTO {
     @Size(min = 6, message = "password must have minimum 6 symbol")
     private String password;
 
-
-
-//    private List<Task> reportedTasks = new ArrayList<>();//TODO think how get user all reported tasks
-//
-//    private List<Task> assignedTasks = new ArrayList<>();
-
-
-//    private List<Long> roleId = new ArrayList<>();
-
 }

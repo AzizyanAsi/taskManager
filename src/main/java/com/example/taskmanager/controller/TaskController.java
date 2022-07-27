@@ -27,7 +27,7 @@ public class TaskController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<TaskResponse> updateAssignee(@PathVariable Long id, //todo assignTask
+    public ResponseEntity<TaskResponse> updateAssignee(@PathVariable Long id,
                                                        @RequestBody @Valid UpdateTaskRequest userRequest) {
         return ResponseEntity.ok(taskConverter.convertToDTO(taskService.updateAssignee(id, userRequest)));
     }

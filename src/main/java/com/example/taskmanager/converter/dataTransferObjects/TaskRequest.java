@@ -17,7 +17,7 @@ import javax.validation.constraints.Positive;
 public class TaskRequest {
 
     @NotBlank(message = "status must not be blank")
-    private String status;//todo can not to be
+    private String status;
 
     @NotBlank(message = "severity must not be blank")
     private String severity;
